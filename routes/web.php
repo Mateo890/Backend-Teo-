@@ -25,5 +25,6 @@ Route::get('/', function () {
 
 Route::prefix('usuarios')->group(function () {
     // Prueba de master 
+    // Mario
     Route::get('/usuarios', [UsuarioController::class, 'getDatos']); 
 });
