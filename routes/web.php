@@ -24,6 +24,6 @@ Route::get('/', function () {
 });
 
 Route::prefix('usuarios')->group(function () {
-    // Ruta para mostrar la lista de personas (index)
+    // Prueba de master 
     Route::get('/usuarios', [UsuarioController::class, 'getDatos']); 
 });
